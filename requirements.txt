@@ -1,0 +1,6 @@
+
+gymnasium[box2d]
+stable-baselines3
+matplotlib
+tensorboard
+moviepy
