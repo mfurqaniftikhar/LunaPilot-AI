@@ -44,6 +44,20 @@ In development.
 
 This repository documents the implementation, experiments, challenges, and lessons learned throughout the project.
 
+
+## Initial Evaluation Results
+
+The PPO agent was evaluated over 20 episodes in the Gymnasium LunarLander-v3 environment.
+
+- **Average episode reward:** 246.58
+- **Successful landings:** 16/20 (80%)
+- **Other terminal episodes:** 2
+- **Time-limit endings:** 2
+
+Success was defined using episode termination, contact from both landing legs, and a non-negative episode reward. This is a preliminary success criterion and will be refined with additional outcome checks.
+
+**Status:** In development. Further evaluation and reward analysis are planned.
+
 ## Learning Approach
 
 The goal is not simply to maximize reward, but to investigate whether the learned policy produces safe and reliable landings.
